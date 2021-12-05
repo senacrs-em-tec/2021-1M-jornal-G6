@@ -1,0 +1,53 @@
+main{
+    font-family: "Open Sans", sans-serif;
+    padding-left: 168px;
+    padding-right: 200px;
+    text-align: justify;
+}
+main h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.subtitulo{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.relogio{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.exemplo{
+    padding-left: 60px;
+    padding-bottom: 40px;
+}
+footer section{
+
+    height: 106px; 
+
+    padding: auto;
+
+    display: block;
+
+    margin-top: 1290px;
+
+    background-color: #62E39E;
+
+}
+
+footer img{
+
+    width: 48px;
+
+    margin-top: 40px;
+
+    margin-left: 20px;
+
+}
+
+footer #img1{
+
+    margin-left: 460px;
+
+}

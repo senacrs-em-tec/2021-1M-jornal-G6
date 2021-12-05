@@ -1,0 +1,148 @@
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*                                                                                                      MAIN                   */
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+main {                                 /*Codigo Base*/ 
+    width: 96%;
+    float: left;
+    margin: 25px;
+    margin-top: 60px;
+    height: auto;
+    display: block;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+main article {                         /*Artigo*/
+    width: 68%;
+    float: left;
+    height: auto;
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+main #s1 {                    /*Caixa 1*/
+    width: 100%;
+    float: left;
+    margin-right: 25px;
+    height: 240px;
+    display: block;
+    padding-bottom: 30px;
+    background-color: #bbbbbb;
+}
+main #s1 a {
+    height: 99px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    list-style-type: none;                                                              /*marcador da listagem - remove o ponto*/
+    text-decoration: none;                                                                              /* remove o sublinhado */
+    background-color: #bbbbbb;
+    color: rgb(0, 0, 0);
+    width: 80.89%;
+    float: right;
+    padding-left: 10px;
+}
+main #s1 img {
+    width: 170px;
+    height: 170px;
+    border: solid;
+    margin: 35px;
+    display: block;
+    background-color: black;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+main #s2{                    /*Caixa 2*/
+    width: 100%;
+    float: left;
+    margin-right: 25px;
+    height: 240px;
+    display: block;
+    padding-bottom: 30px;
+    background-color: #bbbbbb;
+    margin-top: 25px;
+}
+main #s2 a{
+    height: 99px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    list-style-type: none;                                                              /*marcador da listagem - remove o ponto*/
+    text-decoration: none;                                                                              /* remove o sublinhado */
+    background-color: #bbbbbb;
+    color: rgb(0, 0, 0);
+    width: 80.89%;
+    float: right;
+    padding-left: 10px;
+}
+main #s2 img{
+    width: 170px;
+    height: 170px;
+    border: solid;
+    margin: 35px;
+    display: block;
+    background-color: black;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+main #s3{                    /*Caixa 3*/
+    width: 100%;
+    float: left;
+    margin-right: 25px;
+    height: 240px;
+    display: block;
+    padding-bottom: 30px;
+    background-color: #bbbbbb;
+    margin-top: 25px;
+}
+main #s3 a{
+    height: 99px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    list-style-type: none;                                                              /*marcador da listagem - remove o ponto*/
+    text-decoration: none;                                                                              /* remove o sublinhado */
+    background-color: #bbbbbb;
+    color: rgb(0, 0, 0);
+    width: 80.89%;
+    float: right;
+    padding-left: 10px;
+}
+main #s3 img{
+    width: 170px;
+    height: 170px;
+    border: solid;
+    margin: 35px;
+    display: block;
+    background-color: black;
+}
+
+footer section{
+
+    height: 106px; 
+
+    padding: auto;
+
+    display: block;
+
+    margin-top: 860px;
+
+    background-color: #62E39E;
+
+}
+
+footer img{
+
+    width: 48px;
+
+    margin-top: 40px;
+
+    margin-left: 20px;
+
+}
+
+footer #img1{
+
+    margin-left: 460px;
+
+}
