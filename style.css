@@ -38,7 +38,7 @@ header{
     height: 125px;  
 }
 header img{
-    margin-left: 510px;
+    margin-left: 475px;
     margin-top: 20px;
 }
 header hr{
@@ -52,7 +52,6 @@ header hr{
 
   }
 
- 
 
   #menu-bar {
 
@@ -64,8 +63,6 @@ header hr{
 
   }
 
- 
-
   .bar {
 
     height: 6px;
@@ -76,8 +73,6 @@ header hr{
     transition: 0.3s ease;
 
   }
-
- 
 
   #bar1 {
 
@@ -213,7 +208,7 @@ header hr{
 
 #jornal{
     height: 57px;
-    margin: -650px;
+    margin: -574px;
     
 }
 #divBusca{
@@ -264,7 +259,7 @@ body main section{
 .card-body {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  background-color: #71e372;
+  background-color: #78fa90bd;
   padding: 0px;
 }
 
@@ -292,10 +287,10 @@ body main section{
 main aside {
   width: 50%;
   float: right;
-  height: 525px;
+  height: 539px;
   display: flex;
   flex-direction: column;
-  background-color: #71E362;
+  background-color: #b5ffac;
   gap: 20px;
   border: solid;
   margin-top: 31px;
@@ -361,7 +356,7 @@ footer section{
 
   display: block;
 
-  margin-top: 650px;
+  margin-top: 620px;
 
   background-color: #62E39E;
 

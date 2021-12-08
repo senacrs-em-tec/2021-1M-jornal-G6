@@ -18,8 +18,9 @@ main h1{
     margin-left: 10px;
     font-weight: bold;
 }
-.exemplo{
-    padding-left: 60px;
+main iframe{
+    padding-left: 50px;
+    margin-left: 200px;
     padding-bottom: 40px;
 }
 
@@ -35,7 +36,7 @@ footer section{
 
     display: block;
 
-    margin-top: 210%;
+    margin-top: 50%;
 
     background-color: #62E39E;
 

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="noticia.css">
+    <link rel="stylesheet" href="cronicanana.css">
+
+    <title>Cronica</title>
+  </head>
+  <body>
+    <header>
+
+      <!--------- Sci-fi logo ----------->
+     <a href="home.html">
+      <img src="Logo.png" width="300px">
+    </a>
+      <!--------------- Menu Hamburguer -------------->
+      <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+       <nav class="nav" id="nav">
+          <ul>
+            <li><a id="hm" href="home.html">Home</a></li>
+            <li><a href="editorial.html">Crônicas</a></li>
+            <li><a href="editorialArtigos.html">Art. de Opi.</a></li>
+          </ul>
+          </nav>
+      </div>
+      <div class="menu-bg" id="menu-bg"></div>
+
+      <!------------- icon do jornal -------------->
+      <img src="jornalicon.png" id="jornal">
+      </div> 
+    
+    <!----------------------------------- Barra de busca --------------------------------->
+      <div id="divBusca">  
+        <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script> 
+        <lord-icon  
+          src="https://cdn.lordicon.com/msoeawqm.json" 
+          trigger="hover"  
+          colors="primary:#121331,secondary:#08a88a"  
+          scale="20" 
+          style="width:100px;height:100px; margin-top: -25px;">  
+        </lord-icon>
+        <input type="text" id="txtBusca" placeholder="Buscar..."/>  
+        </div>
+    </div>
+</div>
+
+      <hr>
+    </header>
+
+    <main>
+        <h1>Opinião</h1>
+        <p class="subtitulo">
+          <br>Escrito por Tiago Miranda
+        </p>
+        
+        <div class="relogio">
+        <img src="Reloginho.png" width="30" height="30">
+        23/09/2009
+        </div>
+        <hr>
+        <img src="data:image/jpeg;base64,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" class="exemplo" width="550" height="250">
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Opinião... É o que as pessoas podem livremente PENSAR, mas não dizer por que pode gerar ódio, discussão e muito mais, por conta que as pessoas que não conseguem pensar diferente ficam frustradas ou com raiva, e com isso marcam as pessoas que pensam diferente como pessoas loucas simplesmente pelo modo que elas chegam as respostas finais de formas diferentes, sem precisar seguir um padrão como todo mundo quer que você siga. 
+          <br>
+          <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nunca que pensar diferente e externar o pensar foi cercado de tanta “patrulha”. Tal patrulhamento, com viés ideológico ou não, tem resultado numa perigosa “avenida de intolerância e ódio” que hoje se constitui numa ameaça não só à paz mundial, mas à sanidade das pessoas.  
+          <br>
+          <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O ato de divergir, opinar e pensar diferente logo vira confusão... 
+          <br>
+          <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E com isso deixo uma grande frase de um grande homem. 
+          <br>
+          <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“Nenhum problema pode ser resolvido pelo mesmo estado de consciência que o criou”. - Albert Einstein. 
+        </p>
+      </main>
+
+      <footer>
+        <section>
+            <a href="https://www.youtube.com/watch?v=RQhFjctLNHc">
+                <img id="img1" src="img/4.0face.jpg">
+            </a>
+    
+            <a href="#">
+               <img src="img/gmail 2.0.jpg" alt="">
+            </a>
+    
+            <a href="#">
+               <img src="img/inst 2.0.jpg" alt="">
+            </a>
+    
+            <a href="#">
+               <img src="img/tt 2.0.jpg" alt="">
+            </a>
+    
+            <a href="#">
+                <img src="img/pint 2.0.jpg" alt="">
+            </a>
+
+            <a href="#">
+                <img src="img/tele 2.0.jpg" alt="">
+            </a>
+        </section>
+    </footer>
+ 
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  
+  </body>
+</html>

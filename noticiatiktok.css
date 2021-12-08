@@ -1,7 +1,7 @@
 main{
     font-family: "Open Sans", sans-serif;
-    padding-left: 168px;
-    padding-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
     text-align: justify;
 }
 main h1{
@@ -35,7 +35,7 @@ footer section{
 
     display: block;
 
-    margin-top: 210%;
+    margin-top: 155%;
 
     background-color: #62E39E;
 
